@@ -1,0 +1,14 @@
+{
+  "name": "comparer-pkg",
+  "version": "1.0.1",
+  "description": "A package for comparing objects",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "keywords": [
+    "compare", "comparing"
+  ],
+  "author": "DavidNaderer03",
+  "license": "ISC"
+}
