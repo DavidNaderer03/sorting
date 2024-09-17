@@ -1,4 +1,4 @@
-const compareAble = require('sorting-algorythem/sortingbase/compareAble');
+const compareAble = require('comparer-pkg/compareBase/compareAble');
 
 const left = {
     name: "A",
