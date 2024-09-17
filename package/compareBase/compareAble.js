@@ -1,4 +1,4 @@
-class compareAble {
+class CompareAble {
     constructor(left, right, extractValue, comparer) {
         this.left = left;
         this.right = right;
@@ -20,4 +20,4 @@ class compareAble {
     }
 }
 
-module.exports = compareAble;
+module.exports = CompareAble;
