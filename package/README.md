@@ -1,20 +1,15 @@
 ## Comparer-Pkg
 
-This package is for comparing objects.
-You can use it with the commands
-````js
-const compareAble = require('comparer-pkg/compareBase/compareAble');
+This package can be used for comparing objects and search for objects and any other
+type in a 2-dimensional array.
 
-const obj1 = { name: "A" };
-const obj2 = { name: "A"};
+### You can use it with the commands 
 
-function extract(obj) {
-    return obj.name;
-}
+- [comparer](documentation/comparer.md)
+- [searching](documentation/searching.md)
 
-function comparer(left, right) {
-    left === right;
-}
+### Github
 
-const compareAbleObject = new compareAble(obj1, obj2, extract, comparer)
-````
+Here is the [Github-repo](https://github.com/DavidNaderer03/sorting). Comment issues
+if you find bugs. In the next time I will use a package like jest or something to 
+test the package.
